@@ -1,0 +1,113 @@
+.contenedor{
+	display: grid; /* declara al contenedor como una cuadricula */
+	grid-gap: 0px;   /* separacion entre elementos */
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, auto);
+
+}
+
+.contenedor .grid-header1{
+	
+	
+	background: #54acef;
+	grid-column-start: 1; /* especifica donde comenzar la columna (2) */
+	grid-column-end: -1; /* especifica donde finalizar la columna  (-1)*/
+
+	grid-row-start: 1;  /* especifica donde comenzar la fila (2) */
+	grid-row-end: 2; /* especifica donde finaliza la fila */
+ 
+}
+
+.contenedor .grid-header2{
+	
+	
+
+	grid-column-start: 3; /* especifica donde comenzar la columna (2) */
+	grid-column-end: -1; /* especifica donde finalizar la columna  (-1)*/
+
+	grid-row-start: 1;  /* especifica donde comenzar la fila (2) */
+	grid-row-end: 2; /* especifica donde finaliza la fila */
+ 
+}
+.contenedor .grid-banner{
+	
+	
+
+	grid-column-start: 1; /* especifica donde comenzar la columna (2) */
+	grid-column-end: -1; /* especifica donde finalizar la columna  (-1)*/
+
+	grid-row-start: 2;  /* especifica donde comenzar la fila (2) */
+	grid-row-end: 3; /* especifica donde finaliza la fila */
+
+}
+
+.contenedor .grid-vuelos{
+	background-color: red;
+	
+
+	grid-column-start: 1; /* especifica donde comenzar la columna (2) */
+	grid-column-end: -1; /* especifica donde finalizar la columna  (-1)*/
+
+	grid-row-start: 3;  /* especifica donde comenzar la fila (2) */
+	grid-row-end: 4; /* especifica donde finaliza la fila */
+
+}
+.contenedor .grid-paquetes{
+	background-color: green;
+	
+
+	grid-column-start: 1; /* especifica donde comenzar la columna (2) */
+	grid-column-end: -1; /* especifica donde finalizar la columna  (-1)*/
+
+	grid-row-start: 5;  /* especifica donde comenzar la fila (2) */
+	grid-row-end: 6; /* especifica donde finaliza la fila */
+
+}
+
+.contenedor .grid-promociones{
+	background-color: blue;
+	
+
+	grid-column-start: 1; /* especifica donde comenzar la columna (2) */
+	grid-column-end: -1; /* especifica donde finalizar la columna  (-1)*/
+
+	grid-row-start: 6;  /* especifica donde comenzar la fila (2) */
+	grid-row-end: 7; /* especifica donde finaliza la fila */
+
+}
+
+.contenedor .grid-footer{
+	background-color: black;
+	
+
+	grid-column-start: 1; /* especifica donde comenzar la columna (2) */
+	grid-column-end: -1; /* especifica donde finalizar la columna  (-1)*/
+
+	grid-row-start: 7;  /* especifica donde comenzar la fila (2) */
+	grid-row-end: 8; /* especifica donde finaliza la fila */
+
+}
+/*
+grid-column: 1/ -1;
+grid-gap: 1/ 3;
+*/
+
+/*
+grid-area: 1/ 1/ 3/ -1 ;
+*/
+/*
+primer parametro: grid-row-start
+segundo parametro:grid-column-start
+tercer parametro: grid-row-end
+cuarto parametro: grid-column-end
+}
+*/
+
+/*span*/
+
+/*
+grid-column: span 4;
+grid-gap: span 2;
+
+grid-gap: 3/ span 2
+*/
